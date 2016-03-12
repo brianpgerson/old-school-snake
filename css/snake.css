@@ -1,0 +1,39 @@
+body {
+  background-image: url('https://i.ytimg.com/vi/sPSFYGdoQyc/maxresdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: green;
+  color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+.snake-board {
+  margin-left: 0;
+}
+
+.snake-board ul {
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+ li {
+  margin-left: 0
+  position: relative;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  background-color: gray;
+  list-style: none;
+}
+
+.snaked {
+  background-color: green;
+}
+
+.appled {
+  background-color: red;
+}
